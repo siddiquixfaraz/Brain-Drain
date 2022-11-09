@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "834079867396",
+    "project_id": "brain-drain-964ab",
+    "storage_bucket": "brain-drain-964ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834079867396:android:227a86b97abe8058906b51",
+        "android_client_info": {
+          "package_name": "com.example.braindrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834079867396-44iiat0cb8ror7kfl38lf5lb1tmcd1lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAEBl1mvfHCYjDBnCXtoBRtYudiszl6Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834079867396-44iiat0cb8ror7kfl38lf5lb1tmcd1lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

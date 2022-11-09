@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    tools:context=".SignUp_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/bungee"
+        android:textColor="#F44336"
+        style="@style/Base.CardView"
+        android:text="Brain Drain"
+        android:textSize="45dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="30dp"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ravi_prakash"
+                android:text="Create Account"
+                android:textColor="#3A4DB3"
+                android:textSize="35sp"/>
+
+            <EditText
+                android:id="@+id/nameBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/mail"
+                android:background="@drawable/textbox"
+                android:padding="10dp"
+                android:drawablePadding="4dp"
+                android:layout_margin="4dp"
+                android:hint="Name"
+                android:drawableStart="@drawable/mail" />
+            <EditText
+                android:id="@+id/emailBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/mail"
+                android:background="@drawable/textbox"
+                android:padding="10dp"
+                android:drawablePadding="4dp"
+                android:layout_margin="4dp"
+                android:hint="Email"
+                android:drawableStart="@drawable/mail" />
+            <EditText
+                android:id="@+id/passBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/mail"
+                android:background="@drawable/textbox"
+                android:drawablePadding="4dp"
+                android:hint="Password"
+                android:layout_margin="4dp"
+                android:padding="10dp"
+                android:drawableStart="@drawable/mail" />
+            <EditText
+                android:id="@+id/codeBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/mail"
+                android:background="@drawable/textbox"
+                android:drawablePadding="4dp"
+                android:hint="Refer Code"
+                android:layout_margin="4dp"
+                android:padding="10dp"
+                android:drawableStart="@drawable/mail" />
+
+            <Button
+                android:id="@+id/createNewBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/submit_btn"
+                android:requiresFadingEdge="horizontal"
+                android:shadowRadius="10"
+                android:text="Submit" />
+            <Button
+                android:id="@+id/lgnBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:requiresFadingEdge="horizontal"
+                android:shadowRadius="10"
+                android:background="@drawable/lgnbtn"
+                android:text="Already Have An Account"/>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Privacy policy"/>
+
+</LinearLayout>
